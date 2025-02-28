@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Kimbie Dark",
+
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#ffead3",
+		 "titleBar.activeForeground": "#000000" 
+    },
+
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/src"
+    ]
+}
