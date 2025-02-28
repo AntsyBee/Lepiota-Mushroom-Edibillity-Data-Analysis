@@ -29,22 +29,3 @@ def evaluate_model(*model_sets):
         evaluation_table = pd.concat([evaluation_table, result_row], ignore_index=True)
     #return the evaluation table
     return evaluation_table
-"""
-# Example usage
-if __name__ == "__main__":
-    # Example data
-    y_test1 = np.array([1, 2, 3])
-    y_pred1 = np.array([1, 2, 6])
-    y_test2 = np.array([1, 2, 3])
-    y_pred2 = np.array([2, 3, 5])
-
-    # Define model sets
-    args = [
-        ("Model1", y_test1, y_pred1),
-        ("Model2", y_test2, y_pred2)
-    ]
-
-    # Evaluate models
-    evaluation_results = evaluate_model(*args)
-    print(evaluation_results.to_string(index=False))
-"""
