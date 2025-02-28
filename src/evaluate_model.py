@@ -1,5 +1,3 @@
-
-
 def evaluate_model(*model_sets):
     #import within function to avoid errors
     import pandas as pd
